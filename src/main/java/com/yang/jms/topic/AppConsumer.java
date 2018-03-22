@@ -36,9 +36,8 @@ public class AppConsumer {
                     System.out.println("接收消息"+textMessage.getText());
                 } catch (JMSException e) {
                     e.printStackTrace();
+                    System.out.println("hahaa");
                 }
-
-
             }
         });
 
